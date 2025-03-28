@@ -17,8 +17,8 @@ from astropy.time import Time
 outdir='out_1107'                                               ### Output folder
 tool.rmdir(outdir)
 
-list304=sorted(glob.glob(r'D:\python\20240141C33N04E35\aia304/aia.lev1_euv_*304.image_lev1.fits'))
-filelist_sut=sorted(glob.glob(r'D:\python\20240141C33N04E35\sdi\4608/sdi_lev10_*_v01.fits.gz'))
+list304=sorted(glob.glob(r'aia304/aia.lev1_euv_*304.image_lev1.fits'))
+filelist_sut=sorted(glob.glob(r'sdi/sdi_lev10_*_v01.fits.gz'))
 
 Jd304=[]
 
